@@ -14,9 +14,9 @@ namespace EmployeeWageComputation
             Console.WriteLine(empCheck);
 
             if (empCheck == IS_FULL_TIME)
-                Console.WriteLine("Employee present");
+                Console.WriteLine("Employee is present");
             else
-                Console.WriteLine("Employee not present");
+                Console.WriteLine("Employee is not present");
         }
     }
 }
