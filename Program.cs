@@ -18,7 +18,11 @@ namespace EmployeeWageComputation
             if (empCheck == IS_FULL_TIME)
                 Console.WriteLine("Employee is present");
             else
-                Console.WriteLine("Employee is not present"); 
+                Console.WriteLine("Employee is not present");
+
+            int EMP_RATE_PER_HOUR = random.Next(0, 2);
+            int empHrs = 0;
+
             if (empCheck == IS_FULL_TIME)
             {
                 empHrs = 8;
@@ -27,7 +31,7 @@ namespace EmployeeWageComputation
             {
                 empHrs = 0;
             }
-            empWage = empHrs * EMP_RATE_PER_HOUR;
+            int empWage = empHrs * EMP_RATE_PER_HOUR;
             Console.WriteLine("Emp Wage : " + empWage);
 
         }
